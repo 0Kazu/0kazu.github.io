@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: #1DB954;
+    /*background: #1DB954;*/
 }
 
 .images {
@@ -12,27 +12,46 @@ body {
     margin-top: 40px;
     text-align:center;
     background: #14823B;
-    border: 6px solid #ffffff;
+    border: 4px solid #ffffff;
     border-radius: 30px;
     padding-top: 50px;
     padding-bottom: 30px;
-    box-shadow: 0px 0px 25px 2px black;
+    box-shadow: 7px 7px 10px -1px #1DB954, -6px -6px 10px -1px #14823B;
 }
 
 .div-img-toCry {
     width: 640px;
     height: 480px;
     border-radius: 10px;
+    border: double 6px #000;
     display: inline-block;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
+}
+
+.download {
+    margin: 10px 0px 10px 0px;
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #1DB954, #14823B);
+    /*border: solid 4px #0B4F30*/;
+    box-shadow: 7px 7px 10px -1px rgba(0, 0, 0, 0.15), -2px -2px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.download:hover {
+    cursor: pointer;
+}
+span {
+    display: inline-block;
+    margin: 0px 28px 0px 28px;
 }
 
 hr {
-    width: 40%;
-    height: 1px;
+    width: 60%;
+    height: 2px;
     background: #000;
     border: none;
-    box-shadow: 0px 0px 10px 2px #000;
+    /*box-shadow: 0px 0px 4px 3px #000;*/
 }
 
 .div-img-manCow {
