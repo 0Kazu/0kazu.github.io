@@ -1,11 +1,15 @@
-html {
+body {
+    margin: 0;
     height: 100%;
+    padding: 0;
+    background: #F5DEB3;
 }
 
 body {
     /*background: #1DB954;*/
 }
 
+/*
 .images {
     width: 75%;
     margin: auto;
@@ -18,10 +22,28 @@ body {
     padding-bottom: 30px;
     box-shadow: 7px 7px 10px -1px #1DB954, -6px -6px 10px -1px #14823B;
 }
+*/
+.images {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
 
-.div-img-toCry {
+.images-div {
+    margin: auto;
     width: 640px;
     height: 480px;
+}
+
+
+
+.div-img-toCry {
+    object-fit: contain;
+    /*width: 640px;
+    height: 480px;*/
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     border: double 6px #000;
     display: inline-block;
