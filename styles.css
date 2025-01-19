@@ -3,10 +3,27 @@ body {
     height: 100%;
     padding: 0;
     background: #F5DEB3;
+    width: 100vw;
 }
 
 body {
     /*background: #1DB954;*/
+}
+
+h1 {
+    margin: 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+    
 }
 
 /*
