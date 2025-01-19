@@ -73,7 +73,7 @@ h1 {
     border-radius: 30px;
     background: #000;
     /*border: solid 4px #0B4F30*/;
-    box-shadow: 7px 7px 10px -1px rgba(0, 0, 0, 0.15), -2px -2px 10px -1px rgba(255, 255, 255, 0.7);
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
 .download:hover {
     cursor: pointer;
