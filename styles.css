@@ -116,4 +116,9 @@ hr {
         height: 192px;
         margin-top: 10px;
     }
+
+    .download {
+        width: 100px;
+    }
+
 }
