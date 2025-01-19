@@ -13,6 +13,7 @@ body {
 h1 {
     margin: 30px;
     text-align: center;
+    color: #fff;
 }
 
 
@@ -36,6 +37,10 @@ h1 {
     text-align: center;
     margin: auto;
     margin-top: 50px;
+}
+
+p {
+    color: #fff;
 }
 
 .images-div {
