@@ -4,6 +4,7 @@ body {
     padding: 0;
     background: #F5DEB3;
     width: 100vw;
+    font-family: "Josefin Sans", serif;
 }
 
 body {
@@ -11,7 +12,9 @@ body {
 }
 
 h1 {
-    margin: 30px;
+    font-size: 42px;
+    margin: 0px;
+    padding-top: 25px;
     text-align: center;
 }
 
@@ -35,7 +38,6 @@ h1 {
     width: 75%;
     text-align: center;
     margin: auto;
-    margin-top: 50px;
 }
 
 
