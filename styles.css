@@ -15,16 +15,7 @@ h1 {
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 36px;
-    }
 
-    p {
-        font-size: 18px;
-    }
-    
-}
 
 /*
 .images {
@@ -49,18 +40,13 @@ h1 {
 
 .images-div {
     margin: auto;
-    width: 640px;
-    height: 480px;
 }
 
 
 
 .div-img-toCry {
-    object-fit: contain;
-    /*width: 640px;
-    height: 480px;*/
-    width: 100%;
-    height: 100%;
+    width: 640px;
+    height: 480px;
     border-radius: 10px;
     border: double 6px #000;
     display: inline-block;
@@ -100,4 +86,21 @@ hr {
     /*border: 6px solid #1DB954;*/ 
     border-radius: 10px;
     display: inline-block;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .div-img-toCry {
+        width: 320px;
+        height: 240px;
+
+    
 }
