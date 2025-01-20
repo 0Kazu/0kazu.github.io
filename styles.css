@@ -63,6 +63,10 @@ h1 {
     text-align: center;
 }
 
+button {
+    margin: 0 !important;
+}
+
 .download {
     margin: 10px 0px 10px 0px;
     width: 130px;
@@ -79,6 +83,14 @@ h1 {
 .download:hover {
     cursor: pointer;
 }
+
+.description {
+    width: 35px;
+    font-size: 24px;
+    border-radius: 50px;
+}
+
+
 span {
     display: inline-block;
     margin: 0px 3px 0px 3px;
@@ -119,7 +131,21 @@ hr {
     }
 
     .download {
-        width: 100px;
+        width: 94px;
+        font-size: 14px;
     }
+    .description {
+        width: 35px;
+        height: 30px;
+        font-size: 14px;
+        margin: 0;
+
+
+    }
+    .contigo {
+        line-height: 1;
+        font-size: 20px;
+    }
+
 
 }
