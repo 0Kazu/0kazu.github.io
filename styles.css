@@ -113,29 +113,19 @@ hr {
     display: inline-block;
 }
 
-.mobile-parrafo {
+#parrafoM {
+    opacity: 0;
     display: none;
-}
-p {
-    display: none;
+    transition: opacity 0.5s ease-in-out;
 }
 
 @media only screen and (max-width: 600px) {
     .pc-parrafo {
         display: none;
     }
-    .mobile-parrafo {
-        display: none;
-    }
 
     .active {
-        display: block;
-        position: relative;
-        top: 0;
-        transition: all 3s;
-    }
-    .mobile-parrafo {
-        transition: all 3s;
+        display: block !important;
     }
 
     h1 {
@@ -170,5 +160,8 @@ p {
         font-size: 20px;
     }
 
+    .active {
+        opacity: 1 !important;
+    }
 
 }
