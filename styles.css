@@ -126,6 +126,12 @@ hr {
     transition: opacity 0.5s ease-in-out;
 }
 
+#parrafoM1 {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
 @media only screen and (max-width: 600px) {
     .pc-parrafo {
         display: none;
