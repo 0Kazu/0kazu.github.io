@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="../css/leah.css" rel="stylesheet">
+    <link rel="stylesheet" type="" href="../styles.css">
+    <title>Para Baby Leah</title>
+</head>
+<body>
+    <div class="navegation">
+        <nav class="barra-navegacion">
+            <li style="list-style-type: none;">
+                <a href="#"><img class="tortuga" src="../icon/tortuga.png" alt=""></a>
+            </li>
+            <div class="container">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="./HTML/leah.html" target="_blank">Para L</a></li>
+                </ul>             
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="message">
+            <p style="margin-top: 30px;" data-text="Uy Uy Uy Uy"></p>
+            <p data-text="jsjsjs hola baby leah"></p>
+            <p data-text="Oiga, nunca supe qué hacer al final, entonces"></p>
+            <p data-text="Oiga, nunca supe qué hacer"></p>
+            <p data-text=""></p>
+            <p data-text='me puse a pensar y me dije: "cierto, Diego, la web". Qué '></p>
+            <p data-text="pilas que eres. Mmmm, bueno, baby leah."></p>
+            <p data-text="Quiero que sepas que nunca he hecho cosas como"></p>
+            <p data-text="esta, no he estado en estas situaciones, así"></p>
+            <p data-text="que no sé qué decir. No se ría, oiga. *Inserta cara llorando.*"></p>
+            <p data-text="ese dia estaba esperando un mensaje tuyo"></p>
+            <p data-text="ese dia estaba esperando un mensaje tuyo"></p>
+            <p data-text="ese dia estaba esperando un mensaje tuyo"></p>
+            <p data-text="ese dia estaba esperando un mensaje tuyo"></p>
+            <p data-text="ese dia estaba esperando un mensaje tuyo"></p>
+            <p data-text="ese dia estaba esperando un mensaje tuyo"></p>
+        <!--
+        <div class="gallery" id="gallery">
+            <img src="imagen1.jpg" alt="Foto 1">
+            <img src="imagen2.jpg" alt="Foto 2">
+            <img src="imagen3.jpg" alt="Foto 3">
+        </div>
+        -->
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const paragraphs = document.querySelectorAll(".message p");
+            let delay = 0;
+
+            paragraphs.forEach((p, index) => {
+                const text = p.getAttribute("data-text");
+                setTimeout(() => {
+                    let i = 0;
+                    function typeWriter() {
+                        if (i < text.length) {
+                            p.textContent += text[i];
+                            i++;
+                            setTimeout(typeWriter, 50);
+                        } else {
+                            p.style.borderRight = "none"; 
+                        }
+                    }
+                    p.style.opacity = "1";
+                    typeWriter();
+                }, delay);
+                delay += text.length * 30 + 1000; 
+            });
+
+        });
+    </script>
+</body>
+</html>
+

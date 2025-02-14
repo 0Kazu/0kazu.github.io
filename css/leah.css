@@ -1,0 +1,50 @@
+body {
+  margin: 0 !important;
+}
+
+nav {
+  position: relative !important;
+  top: 0;
+}
+
+.message p {
+    overflow: hidden;
+    white-space: normal; /* Permitir saltos de línea */
+    display: inline-block; /* Para que la línea de animación esté al final del texto */
+    margin: 10px auto;
+    opacity: 0;
+    max-width: 90%;
+    text-align: center;
+    word-break: break-word;
+    position: relative;
+}
+
+
+.message p {
+    overflow: hidden;
+    font-size: 18px;
+    white-space: normal; /* Ahora permite saltos de línea */
+    border-right: 3px solid #355E3B;
+    display: block;
+    margin: 0px auto;
+    opacity: 0;
+    width: fit-content;
+    max-width: 90%; /* Se adapta al contenido */
+    text-align: center;
+    word-break: break-word; /* Para cortar palabras largas si es necesario */
+}
+/*
+.message p::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #355E3B;
+    animation: blink 0.5s infinite alternate;
+}
+*/
+@keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
