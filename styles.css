@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  margin-top: 20px;
+  margin-top: 28px;
 }
 
 .tortuga {
@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-  background-color: #aaa4;
+  background-color: rgba(162, 197, 121, 0.4);
   height: 48px;
   width: 100vw;
   display: flex;
