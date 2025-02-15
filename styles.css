@@ -18,6 +18,11 @@ body {
   margin: 10px;
 }
 
+.cambio-color {
+  background: rgba(162, 197, 121, 0.99);
+  transition: all 1s;
+}
+
 nav {
   background-color: rgba(162, 197, 121, 0.4);
   height: 48px;
@@ -58,6 +63,7 @@ nav ul li a {
   text-decoration: none;
   color: #000;
 }
+
 
 
 h1 {

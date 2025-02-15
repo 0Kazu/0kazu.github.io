@@ -23,7 +23,9 @@ nav {
   margin: 10px;
   -webkit-tap-highlight-color: transparent;
 }
-
+.cambio-color {
+  background: #fff;
+}
 
 .message p {
     overflow: hidden;
