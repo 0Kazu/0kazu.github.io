@@ -13,6 +13,7 @@ body {
 
 .tortuga {
   outline: none;
+  -webkit-tap-highlight-color: transparent;
   width: 32px;
   margin: 10px;
 }

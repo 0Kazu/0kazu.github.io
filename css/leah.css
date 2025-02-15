@@ -21,6 +21,7 @@ nav {
 .tortuga {
   width: 32px;
   margin: 10px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 
