@@ -4,13 +4,13 @@ body {
 
 nav {
   position: relative !important;
-  top: 0;
+  top: 0 !important;
 }
 
 nav {
   background-color: rgba(162, 197, 121, 0.4);
-  height: 54px !important;
-  width: 100vw;
+  height: 48px !important;
+  width: 100vw !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
