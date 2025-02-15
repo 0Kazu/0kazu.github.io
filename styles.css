@@ -12,6 +12,7 @@ body {
 }
 
 .tortuga {
+  outline: none;
   width: 32px;
   margin: 10px;
 }
