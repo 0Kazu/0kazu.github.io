@@ -7,6 +7,23 @@ nav {
   top: 0;
 }
 
+nav {
+  background-color: rgba(162, 197, 121, 0.4);
+  height: 54px !important;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+}
+
+.tortuga {
+  width: 32px;
+  margin: 14px 10px 10px 12px;
+}
+
+
 .message p {
     overflow: hidden;
     white-space: normal; /* Permitir saltos de línea */
@@ -26,7 +43,7 @@ nav {
     white-space: normal; /* Ahora permite saltos de línea */
     border-right: 3px solid #355E3B;
     display: block;
-    margin: 0px auto;
+    margin: 5px auto;
     opacity: 0;
     width: fit-content;
     max-width: 90%; /* Se adapta al contenido */
